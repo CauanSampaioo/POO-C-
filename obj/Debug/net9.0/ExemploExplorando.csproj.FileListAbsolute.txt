@@ -1,0 +1,14 @@
+C:\Users\cauanPc\OneDrive\Área de Trabalho\dio-AVANADE\basico\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cauanPc\OneDrive\Área de Trabalho\dio-AVANADE\basico\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.AssemblyInfoInputs.cache
+C:\Users\cauanPc\OneDrive\Área de Trabalho\dio-AVANADE\basico\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.AssemblyInfo.cs
+C:\Users\cauanPc\OneDrive\Área de Trabalho\dio-AVANADE\basico\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.csproj.CoreCompileInputs.cache
+C:\Users\cauanPc\OneDrive\Área de Trabalho\dio-AVANADE\basico\ExemploExplorando\bin\Debug\net9.0\ExemploExplorando.exe
+C:\Users\cauanPc\OneDrive\Área de Trabalho\dio-AVANADE\basico\ExemploExplorando\bin\Debug\net9.0\ExemploExplorando.deps.json
+C:\Users\cauanPc\OneDrive\Área de Trabalho\dio-AVANADE\basico\ExemploExplorando\bin\Debug\net9.0\ExemploExplorando.runtimeconfig.json
+C:\Users\cauanPc\OneDrive\Área de Trabalho\dio-AVANADE\basico\ExemploExplorando\bin\Debug\net9.0\ExemploExplorando.dll
+C:\Users\cauanPc\OneDrive\Área de Trabalho\dio-AVANADE\basico\ExemploExplorando\bin\Debug\net9.0\ExemploExplorando.pdb
+C:\Users\cauanPc\OneDrive\Área de Trabalho\dio-AVANADE\basico\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.dll
+C:\Users\cauanPc\OneDrive\Área de Trabalho\dio-AVANADE\basico\ExemploExplorando\obj\Debug\net9.0\refint\ExemploExplorando.dll
+C:\Users\cauanPc\OneDrive\Área de Trabalho\dio-AVANADE\basico\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.pdb
+C:\Users\cauanPc\OneDrive\Área de Trabalho\dio-AVANADE\basico\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.genruntimeconfig.cache
+C:\Users\cauanPc\OneDrive\Área de Trabalho\dio-AVANADE\basico\ExemploExplorando\obj\Debug\net9.0\ref\ExemploExplorando.dll
