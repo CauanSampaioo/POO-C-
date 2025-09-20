@@ -12,3 +12,4 @@ C:\Users\cauanPc\OneDrive\Área de Trabalho\dio-AVANADE\basico\ExemploExplorando
 C:\Users\cauanPc\OneDrive\Área de Trabalho\dio-AVANADE\basico\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.pdb
 C:\Users\cauanPc\OneDrive\Área de Trabalho\dio-AVANADE\basico\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.genruntimeconfig.cache
 C:\Users\cauanPc\OneDrive\Área de Trabalho\dio-AVANADE\basico\ExemploExplorando\obj\Debug\net9.0\ref\ExemploExplorando.dll
+C:\Users\cauanPc\OneDrive\Área de Trabalho\dio-AVANADE\basico\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.sourcelink.json
