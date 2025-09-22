@@ -3,13 +3,66 @@ using ExemploExplorando.Models;
 using System.Globalization;
 using System.Collections;
 
-Dictionary<string, string> estados = new Dictionary<string, string>();
-estados.Add("BA", "Bahia");
-estados.Add("SP", "São Paulo");
-estados.Add("MG", "Minas Gerais");
 
-Console.WriteLine(estados.Count);
-Console.WriteLine(estados["BA"]);
+
+
+LeituraDeArquivo arquivo = new LeituraDeArquivo();
+//Console.WriteLine(arquivo.LerArquivo("Arquivos/arquivoLeituraa.txt"));
+
+string arquivoDaLeitura = "Arquivos/arquivoLeitura.txt";
+var (Sucesso, Linhas, QuantidadeLinhas) = arquivo.LerArquivo(arquivoDaLeitura);
+
+if (Sucesso)
+{
+    Console.WriteLine("Quantidade de linhas -> " + QuantidadeLinhas);
+    foreach (string lnhas in Linhas)
+    {
+        Console.WriteLine(lnhas);
+    }
+}
+else
+{
+    Console.WriteLine("Não foi possível ler aquivo \"" + arquivoDaLeitura + "\"");
+}
+
+
+
+// (string, int, string) tupla = ("Feijoada", 5, "Bode e Cia");
+
+// Console.WriteLine("Tipo de comida: " + tupla.Item1);
+// Console.WriteLine("Número de pratos: " + tupla.Item2);
+// Console.WriteLine("Restaurante : " + tupla.Item3);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Dictionary<string, string> estados = new Dictionary<string, string>();
+// estados.Add("BA", "Bahia");
+// estados.Add("SP", "São Paulo");
+// estados.Add("MG", "Minas Gerais");
+
+// Console.WriteLine(estados.Count);
+// Console.WriteLine(estados["BA"]);
 
 // foreach (var estado in estados)
 // {
@@ -24,17 +77,18 @@ Console.WriteLine(estados["BA"]);
 //     Console.WriteLine($"{estado.Key} - {estado.Value}");
 // }
 
-string chave = "RJ";
-if (estados.ContainsKey(chave))
-{
-    Console.WriteLine("Já existe a chave - " + chave);
-}
-else
-{
-    Console.WriteLine("É seguro adicionar a chave - " + chave);
-    estados.Add(chave, "Adicionado");
-    Console.WriteLine(chave + " Adicionado(a)");
-}
+
+// string chave = "RJ";
+// if (estados.ContainsKey(chave))
+// {
+//     Console.WriteLine("Já existe a chave - " + chave);
+// }
+// else
+// {
+//     Console.WriteLine("É seguro adicionar a chave - " + chave);
+//     estados.Add(chave, "Adicionado");
+//     Console.WriteLine(chave + " Adicionado(a)");
+// }
 
 
 
