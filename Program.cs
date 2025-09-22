@@ -1,10 +1,196 @@
 ﻿using System.Reflection.Metadata;
 using ExemploExplorando.Models;
 using System.Globalization;
+using System.Collections;
+
+Dictionary<string, string> estados = new Dictionary<string, string>();
+estados.Add("BA", "Bahia");
+estados.Add("SP", "São Paulo");
+estados.Add("MG", "Minas Gerais");
+
+Console.WriteLine(estados.Count);
+Console.WriteLine(estados["BA"]);
+
+// foreach (var estado in estados)
+// {
+//     Console.WriteLine($"{estado.Key} - {estado.Value}");
+// }
+
+// Console.WriteLine($"\n Removendo -> {estados.Remove("BA")} , {estados.Remove("SP")} \n");
+// estados["MG"] = "MG Valor alterado";
+
+// foreach (var estado in estados)
+// {
+//     Console.WriteLine($"{estado.Key} - {estado.Value}");
+// }
+
+string chave = "RJ";
+if (estados.ContainsKey(chave))
+{
+    Console.WriteLine("Já existe a chave - " + chave);
+}
+else
+{
+    Console.WriteLine("É seguro adicionar a chave - " + chave);
+    estados.Add(chave, "Adicionado");
+    Console.WriteLine(chave + " Adicionado(a)");
+}
 
 
-DateTime data = DateTime.Parse("13/09/2003 13:45");
-Console.WriteLine(data);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Stack<int> pilha = new Stack<int>();
+// pilha.Push(1);
+// pilha.Push(4);
+// pilha.Push(9);
+
+// foreach (var item in pilha)
+// {
+//     Console.WriteLine(item);
+// }
+
+// Console.WriteLine($"Removendo do totpo -> ({pilha.Pop()})");
+
+// foreach (var item in pilha)
+// {
+//     Console.WriteLine(item);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Queue<int> fila = new Queue<int>();
+// fila.Enqueue(2);
+// fila.Enqueue(10);
+// fila.Enqueue(20);
+
+// foreach (int numero in fila)
+// {
+//     Console.WriteLine($"numero -> {numero}");
+// }
+
+// Console.WriteLine($"Removendo o primeiro a chegar na fila -> ({fila.Dequeue()})");
+
+// foreach (int numero in fila)
+// {
+//     Console.WriteLine($"numero -> {numero}");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// try
+// {
+//     string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+
+//     foreach (string linhasLine in linhas)
+//     {
+//         Console.WriteLine(linhasLine);
+//     }
+// }
+// catch (Exception ex)
+// {
+//     Console.WriteLine($"Primeiro catch {ex.Message}");
+// }
+// finally
+// {
+//     Console.WriteLine("Finaly");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// DateTime data = DateTime.Parse("13/09/2003 13:45");
+// Console.WriteLine(data);
 
 // DateTime data = DateTime.Now;
 // Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm"));
