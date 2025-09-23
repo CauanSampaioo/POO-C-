@@ -1,1 +1,1 @@
-Organizção do curso Porjeto principal
+Organizção do curso Projeto principal
