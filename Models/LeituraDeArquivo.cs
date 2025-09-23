@@ -16,8 +16,8 @@ namespace ExemploExplorando.Models
             }
             catch
             {
-                return (false, new string[0] ,0);
-            }            
+                return (false, new string[0], 0);
+            }
         }
     }
 }
